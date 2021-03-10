@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-COMPATIBLE" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" id="applicationStylesheet" href="css/inquiry_form.css"/>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+	<title>ALCOFIL Inquiry Form</title>
+</head>
+<body>
+	<div id="inquiryForm">
+<!--NAVIGATION BAR-->
+	<div id="logoNav" class="content">
+		<a href="landing_page.html"><img id="alcofil-logo" src="logo/alco-logo.png" alt="alcofil-logo"></a>
+	</div>
+	<div id="topNav" class="top-nav">
+		<button id="contact-btn" class="btn-contact"><a href="contact_us.html">CONTACT US</a></button>
+	</div>
+<!--END OF NAVIGATION BAR-->
+	
+<!--INQUIRY CONTENT-->
+	<div class="inBackground">
+		<div id="iContent" class="inContent">
+			<h1>INQUIRY</h1>
+		</div>
+	<!--FORMS-->
+		<div id="Forms" class="fForms">
+			<form action="inquiry-form.html" method="get" id="formInquiry">
+				<!--NAME-->
+				<label for="fName" id="nameID" class="formClass">Name</label><br>
+				<input type="text" id="fName" class="formClass" name="fName" required>
+				<!--END-->
+
+				<!--REPLY TO-->
+				<label class="formClass ReplyTo" id="reply">Reply to</label>
+
+				<input type="radio" id="fRadio" name="replyTo" class=" formClass radioSize" value="number" required>
+				<label for="fRadio" class="formClass" id="pNumber"> Phone number</label>
+
+				<input type="radio" name="replyTo" id="formEmail" class="formClass radioSize" value="Email" required>
+				<label for="formEmail" id="fEmail" class="formClass radioSize">Email</label>
+				<!--END-->
+
+				<!--PHONE OR EMAIL ADDRESS-->
+				<label for="phone" id="pNum" class="formClass">Phone number</label><br>
+				<input type="number" name="phone" id="phone" class="formClass">
+
+				<label for="eAdd" id="emailID" class="formClass eAdd">Email</label><br>
+				<input type="email" id="emailID" class="formClass emailClass" name="eMail">
+				<!--END-->
+
+				<!--LEAVE MESSAGE-->
+				<label for="message" id="lMessage" class="formClass LMessage">Leave your message</label><br>
+				<textarea rows="10" cols="60" name="message" id="leaveMessage" class="formClass" required></textarea>
+				<!--END-->
+				
+				<!--CHECKBOX-->
+				<input type="checkbox" name="agree" value="agreed" class="formClass chckbox" required>
+				<label for="agree" class="formClass agreeText"><a href="sample.html" class="agreeText">Agree to privacy policy</a></label><br>
+				<!--END-->
+
+				<!--SUBMIT BUTTON-->
+				<button type="submit" form="formInquiry" value="Submit" id="submit-btn" class="formClass btnSubmit">SUBMIT</button>
+				<!--END-->
+			</form>
+		</div>
+	</div>
+<!--END OF INQUIRY CONTENT-->
+	</div>
+
+<!--FOOTER-->
+	<footer class="footer">
+		<p id="footerText">Alcofil PH 2021</p>
+	</footer>
+<!--END OF FOOTER-->
+</body>
+</html>

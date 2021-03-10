@@ -1,0 +1,352 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#landing_page {
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	overflow: hidden;
+	background-color: #C52F2C;
+}
+.content {
+	z-index: -1;
+	position: relative;
+}
+.aboutContent {
+	z-index: 1;
+	position: absolute;
+	left: 50px;
+	top: 1050px;
+	width: 500px;
+}
+/*NAV BAR*/
+.content {
+	z-index: 1;
+	position: relative;
+}
+#topNav {
+	float: right;
+	display: inline;
+	text-align: center;
+	font-size: 20px;
+	color: red;
+	margin-right: 20px;
+	margin-top: 50px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+}
+.top-nav a {
+	text-decoration: none;
+	color: white;
+}
+#alcofil-logo {
+	z-index: 1;
+	position: absolute;
+	width: 220px;
+}
+#contact-btn{
+	background-color: #3B4043;
+	border-radius: 15px;
+	font-size: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	margin-top: -20px;
+}
+/*END OF NAV BAR*/
+#contact-btn{
+	background-color: #3B4043;
+	border-radius: 15px;
+	font-size: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	margin-left: 10px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+}
+/*HEADER*/
+#Header {
+	background-color: black;
+	margin-top: 125px;
+	margin-left: 20px;
+	margin-right: 20px;
+	height: 2300px;
+	overflow: visible;
+}
+#contact_us1 {
+	color: black;
+	font-size: 50px;
+	text-align: center;
+	top: 300px;
+	font-family: 'Source Sans Pro', sans-serif;
+
+	position: absolute;
+ 	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+/*END OF HEADER*/
+
+/*TABLE of CONTACT*/
+.table_contact{
+  width: 100%;
+}
+
+.table_contact th{
+  position: relative;
+  text-align: left;
+  width: 15%;
+
+  color: white;
+  font-family: Source Han Sans JP;
+
+  top: 320px;
+  left: 20px;
+  line-height: 50px;
+}
+
+.table_contact th:after{
+  display: block;
+  content: "";
+  width: 600px;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  top:calc(50% - 1px);
+  right:20px;
+
+  left: 300px;
+}
+
+.table_contact td{ 
+  top: 320px;
+  position: relative;
+  text-align: right;
+  width: 15%;
+  right: 20px;
+
+  color: white;
+  font-family: Source Han Sans JP;
+
+  color: white;
+}
+
+/*MAP*/
+
+#map-1{
+	top: 350px;
+  position: relative;
+  text-align: right;
+}
+/*END OF TABLE*/
+#aboutus-button {
+	left: 37%;
+	top: 1200px;
+	position: absolute;
+	overflow: visible;
+	width: 117px;
+	white-space: nowrap;
+	line-height: 30px;
+	margin-top: -3.5px;
+}
+.btn {
+	border:none;
+	background-color: #C42F2B;
+	font-size: 24px;
+	cursor: pointer;
+	color: white;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-weight: bold;
+
+	    border-radius: 10px;
+}
+
+.about-us {
+	border-radius: 12px;
+}
+.about-us a {
+	text-decoration: none;
+	color: white;
+}
+#alcofil-logo {
+	position: absolute;
+	width: 220px;
+}
+#aboutUs{
+	left: 0px;
+	top: 90px;
+	position: absolute;
+	overflow: visible;
+	width: 631px;
+	height: 91px;
+	line-height: 34px;
+	margin-top: 1100px;
+	margin-left: 575px;
+	text-align: center;
+	font-family: Source Han Sans JP;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: white;
+}
+
+#contact_us {
+	position: absolute;
+	width: 1223px;
+	height: 300px;
+	overflow: visible;
+}
+
+/*table2*/
+
+#sample_assist {
+	width: 200px;
+	height: 200px;
+}
+
+.table_assist{
+  border-spacing: 0;
+  table-layout: fixed;
+  margin-top: 600px;
+  width: 100%;
+  color: white;
+    font-family: Source Han Sans JP;
+
+
+
+}
+
+.table_assist tr:last-child{
+  border-bottom:solid 1px #ddd;
+}
+
+.table_assist th{
+  text-align: center;
+  padding: 7px 0;
+  border-right:solid 1px #ddd;
+  border-left:solid 1px #ddd;
+  width: 155px;
+    font-family: Source Han Sans JP;
+}
+.table_assist th:after{
+  display: block;
+  content: "";
+
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  top:calc(50% - 1px);
+  right:20px;
+
+}
+
+.table_assist th:nth-child(1){
+  background-color:transparent;
+}
+
+.table_assist th:nth-child(3){
+  background-color:transparent;
+  color: white;
+}
+
+.table_assist tr:nth-child(2) td{
+  font-size: 30px;
+
+}
+
+.table_assist td{
+  text-align: center;
+  padding: 7px 0;
+  border-right:solid 1px #ddd;
+  border-left:solid 1px #ddd;
+  width: 155px;
+  font-family: Source Han Sans JP;
+}
+
+.table_assist td a{
+  background-color: #C42F2B;
+  color: white;
+  padding:5px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 100px;
+  font-family: Source Han Sans JP;
+}
+
+.contactBelow {
+	z-index: 1;
+	color: white;
+	position: absolute;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.favicon {
+	z-index: 1;
+	position: absolute;
+	left: 1055px;
+}
+#facebook-icon {
+	top: 2165px;
+	width: 40px;
+}
+#twitter-icon {
+	top: 2215px;
+	width: 40px;
+}
+#ig-icon {
+	top: 2265px;
+	width: 40px;
+}
+#alcotext {
+	top: 2100px;
+	left: 1060px;
+	font-weight: bold;
+	font-size: 25px;
+}
+#alcotextsmall {
+	top:2130px;
+	left: 1060px;
+	font-weight: bold;
+	font-size: 20px;
+}
+#fb-page {
+	top: 2170px;
+	left: 1100px;
+	text-decoration: none;
+	font-size: 20px;
+}
+#twitter-page {
+	top: 2220px;
+	left: 1100px;
+	text-decoration: none;
+	font-size: 20px;
+}
+#ig-page {
+	top: 2270px;
+	left: 1100px;
+	text-decoration: none;
+	font-size: 20px;
+}
+.footer {
+	z-index: 2;
+	position: absolute;
+	color: white;
+	float: center;
+	top: 2400px;
+	width: 100%;
+	height: 25px;
+	text-align: center;
+	background-color: #3B4043;
+	font-family: 'Source Sans Pro', sans-serif;
+}

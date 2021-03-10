@@ -1,0 +1,182 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#feedbackForm {
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	overflow: hidden;
+	background-color: #C52F2C;
+}
+
+/*NAV BAR*/
+.content {
+	z-index: 1;
+	position: relative;
+}
+#topNav {
+	float: right;
+	display: inline;
+	text-align: center;
+	font-size: 20px;
+	color: red;
+	margin-right: 20px;
+	margin-top: 50px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+}
+.top-nav a {
+	text-decoration: none;
+	color: white;
+}
+#alcofil-logo {
+	z-index: 1;
+	position: absolute;
+	width: 220px;
+}
+#contact-btn{
+	background-color: #3B4043;
+	border-radius: 15px;
+	font-size: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	margin-top: -20px;
+}
+/*END OF NAV BAR*/
+
+.fbBackground {
+	background-color: black;
+	overflow: visible;
+	height: 750px;
+	margin-top: 110px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.fbContent {
+	z-index: 1;
+	position: absolute;
+}
+#fContent {
+	font-size: 30px;
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	top: 140px;
+	text-align: center;
+	float: center;
+	width: 100%;
+}
+.fForms {
+	z-index: 1;
+	position: absolute;
+}
+.formClass {
+	z-index: 1;
+	position: absolute;
+	color: white;
+}
+#nameID {
+	top: 140px;
+	left: 420px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+#fName {
+	top: 140px;
+	left: 495px;
+	width: 350px;
+	height: 30px;
+	color: black;
+}
+#nameID {
+	top: 140px;
+	left: 420px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.eAdd {
+	font-family: 'Source Sans Pro', sans-serif;
+	top: 230px;
+	left: 420px;
+}
+.emailClass {
+	width: 250px;
+	height: 30px;
+	color: black;
+	top: 230px;
+	left: 495px;
+}
+#pNum {
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	top: 320px;
+	left: 420px;
+}
+#phone {
+	top: 325px;
+	left: 495px;
+	width: 355px;
+	height: 30px;
+	color: black;
+}
+.LMessage {
+	left: 420px;
+	top: 410px;
+	width: 150px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+#leaveMessage {
+	color: black;
+	left: 420px;
+	top: 450px;
+}
+.chckbox {
+	transform: scale(2);
+	border:0;
+	top: 620px;
+	left: 520px;
+}
+.agreeText {
+	width: 300px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+	top: 620px;
+	left: 550px;
+}
+#submit-btn {
+	background-color: #C52F2C;
+	font-size: 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+	font-weight: bold;
+	top: 670px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-radius: 16px;
+}
+.btnSubmit {
+	margin: 0 auto;
+	display: block;
+	left: 600px;
+}
+
+/*FOOTER*/
+.footer {
+	z-index: 1;
+	position: absolute;
+	color: white;
+	float: center;
+	top: 840px;
+	width: 100%;
+	height: 25px;
+	text-align: center;
+	background-color: #3B4043;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+/*END OF FOOTER*/
